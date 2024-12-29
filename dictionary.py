@@ -18,7 +18,8 @@ d1.pop(5)
 print("after deleting")
 print(d1)
 
-# if you want to print the keys of a dictionary use list(d1.keys()) or list(d1.values())
+# if you want to print the keys of a dictionary use 
+# list(d1.keys()) or list(d1.values())
 
 keys = list(d1.keys())
 print(keys)

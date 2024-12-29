@@ -13,5 +13,9 @@ print(by_letter)
 username =  input("Enter username")
 print("the user name is "+ username)
 
-
+#  string
+# amra  hash er bhitore only immutable data type rakhte parbo jemon int,float,string, tuples as eta r change kora jayna
+k = hash("This is it")
+y =  hash((1,2, (3,4)))
+print(k)
 

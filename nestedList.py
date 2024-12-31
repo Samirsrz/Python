@@ -10,3 +10,13 @@ for names in all_data:
 
 print(namesOfInterest)
 
+# Another problem to create it into a single list
+tuples = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+flattened = []
+
+for tup in tuples:
+    for x in tup:
+        flattened.append(x)
+
+
+print(flattened)

@@ -18,3 +18,9 @@ def fibonacci():
 
 fir_gen = (y for _, y in zip(range(10), fibonacci()))
 print(list(fir_gen))
+
+
+# -------------------------------------
+
+items_with_square = dict((i, i**2) for i in range(5))
+print(items_with_square)

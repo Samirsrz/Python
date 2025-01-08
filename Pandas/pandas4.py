@@ -12,6 +12,7 @@ bios = pd.read_csv('https://raw.githubusercontent.com/KeithGalli/complete-pandas
 
 # print(bios.loc[bios['name'].str.contains(r'(.)\1',na=False), ['name']])
 
-three_or_more_vowels = bios.loc[bios['name'].str.contains(r'([AEIOUaeiou].*){3,1}')]
+x = bios.loc[bios['born_country'].isin(["USA", "FRA", "GBR"]) & (bios["name"].str.startswith("Keith")), ['name']]
 
-print(three_or_more_vowels)
+print(x)
+
